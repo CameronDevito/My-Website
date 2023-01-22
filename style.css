@@ -1,0 +1,136 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+font-family: 'Josefin sans', Helvetica, sans-serif;
+  margin: 0;
+}
+
+hr.rounded {
+  border-top: 3px solid #bbb;
+  border-radius: 3px;
+  margin: 0px 10% 0px 10%;
+}
+
+.header{
+  padding: 15%;
+  padding-left:5%;
+  text-align: left;
+  background: #f53d3d;
+  color: #006cfa;
+  background-image: url("Peter.jpeg");
+  background-size: 80%;
+  background-position-y: 20%;
+  background-position-x: 50%;
+}
+
+.header p {
+  padding-left: 0%;
+}
+
+
+.header h1 {
+  font-style: italic;
+  padding-left: 0%;
+  margin-bottom: -10px;
+  font-size: 3em;
+}
+
+.navbar {
+  background-color: #730d0d;
+  overflow: hidden;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.navbar a{
+  color: white;
+  float: left;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 14px 20px 14px 20px;
+}
+
+.navbar a:hover{
+  background-color: orangered;
+  color:black;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+@media only screen and (min-width: 600px) {
+.side {
+  background-color:#ffffff ;
+  flex: 100%;
+  padding: 20px;
+}
+
+.main {
+  flex: 100%;
+  padding: 20px;
+  background-color: white;
+    }
+
+  
+}
+@media only screen and (min-width: 768px) {
+.side {
+  background-color:#f1f1f1 ;
+  flex: 30%;
+  padding: 20px;
+}
+
+.main {
+  flex: 70%;
+  padding: 20px;
+  background-color: white;
+    }
+}
+
+.fakeimg {
+  flex:30%;
+  padding:20px;
+  text-align: center;
+}
+
+.skills h1 {
+  text-align: center;
+}
+
+.fill{
+  width:100%;
+  padding-top:0%;
+  padding-bottom:0%;
+}
+
+
+.imgvertical{
+  width:100%;
+  padding:0%;
+  margin:0%;
+}
+
+.container{
+  position: relative;
+  overflow:hidden;
+  width: 100%;
+  height: 56.25%;
+}
+
+.iframe-fill{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom:0;
+  right: 0;
+  
+}
